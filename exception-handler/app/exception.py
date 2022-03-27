@@ -110,11 +110,3 @@ class UIException(InternalException):
     """APIException subclass for exceptions caused by UI errors"""
     
     status = HTTPStatus.GATEWAY_TIMEOUT
-
-
-if __name__ == "__main__":
-    try:
-        raise APIException("abc")
-    except APIException as ex:
-        ex.log()
-        print(ex.info)
