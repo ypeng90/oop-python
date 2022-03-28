@@ -1,6 +1,6 @@
 """
 Tests for AppException class
-Command line: python -m pytest test/unit
+Command line: python -m pytest tests/unit
 """
 
 from re import A

@@ -1,6 +1,6 @@
 """
 Unit tests
-Command line: python -m pytest test/unit
+Command line: python -m pytest tests/unit/test_validate_integer.py
 """
 
 import pytest
