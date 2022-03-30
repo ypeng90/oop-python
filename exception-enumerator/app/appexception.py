@@ -5,7 +5,7 @@ from tkinter.messagebox import NO
 
 
 class GenericException(Exception):
-    """GenericException base class"""
+    """GenericException base class for all custom exceptions"""
     
     pass
 

@@ -4,7 +4,7 @@ import operator
 
 @total_ordering
 class Mod:
-    """Mod class to store residue and modulus"""
+    """Mod class to calculate residue and modulus"""
     
     def __init__(self, modulus, residue):
         """

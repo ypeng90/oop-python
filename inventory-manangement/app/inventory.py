@@ -5,7 +5,7 @@ from app.utilities import validate_integer
 
 
 class Resource:
-    """Base class for resources"""
+    """Base class for all resources"""
 
     def __init__(self, name, manufacturer, total, allocated):
         """

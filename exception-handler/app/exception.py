@@ -8,7 +8,7 @@ import traceback
 
 
 class AppException(Exception):
-    """AppException base class for all exceptions"""
+    """AppException base class for all custom exceptions"""
     
     status = HTTPStatus.INTERNAL_SERVER_ERROR
     
