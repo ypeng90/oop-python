@@ -1,4 +1,4 @@
-# Object-oriented programming with Python
+# Object-oriented Programming with Python
 
 Several projects using Python for OOP:
 
